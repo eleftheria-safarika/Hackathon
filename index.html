@@ -1,3 +1,46 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="java.js"></script>
+    </head>
 
+    <body>
+
+        <!--<div class="vertical-center">
+            <center>
+                <button class="button1"> START </button>
+            </center>
+            
+            
+            <center>
+                <button id="myBtn" class="button1"> START </button>
+            </center>
+                <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <p>these are the instructions...</p>
+            </div> 
+        </div> --> 
+        
+        <div id="popUpOverlay"></div>
+        <div id="popUpBox">
+            <div id="box">
+                <i class="fas fa-check-circle fa-fx"></i>
+                <h1>Aim of the Game</h1>
+                <p>Help!!! Click on the Covid blocks to reduce their health bar. Don't get too close though. Collect masks and vaccines on the way to increase your health bar.</p>
+                <p>Click LEVEL 1 to begin! Good Luck!</p>
+                <div id="closeModal"></div>
+            </div>
+        </div>
+        <button onclick="Alert.render('You look very pretty today.')" class="btn">START</button>
+
+        <div class="vertical-center">
+            <center>
+                <button class="buttonCircle1"></button>
+            </center>
+        </div>
+
+        <button onclick="window.location.href='./level1.html'" class="buttonCircle1">  </button>
+        
+    </body>
 </html>

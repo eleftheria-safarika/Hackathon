@@ -1,5 +1,5 @@
 html {
-    background: url('Pictures/Homepage Background.jpg') no-repeat center center fixed;
+    background: url('Pictures/Level\ 1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,8 +34,7 @@ html {
     background-color: #4CAF50;
     color: white;
 }​​
-​​
-
+  
 body{
     margin: 0;
     padding: 0;
@@ -71,13 +70,22 @@ body{
     display: none;
 }
 
-.buttonCircle1{
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.buttonCircle2{
     position: absolute;
-    top: 876px;
-    left: 450px;
+    top: -80px;
+    left: 328px;
     transform: translate(-50%, -50%);
-    background: #002060;
+    background: none;
+    font-size: 25px;
+    color: white;
     border-radius: 90%;
-    padding: 22px 22px;
+    padding: 42px 42px;
     cursor: pointer;
 }
