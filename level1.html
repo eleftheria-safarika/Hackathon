@@ -34,7 +34,21 @@
         </div>
         <div id='a'></div> -->
 
-        <div id="Covid"></div>
+        <div id="Covid"></div> 
+        <script src="java.js"></script>
+
+        <script>
+
+            var el = document.getElementById("covid");
+        
+            if (Modernizr.canvas && Modernizr.localstorage && 
+                Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+              window.setTimeout(function () { COVID.init(el, "./"); }, 0);
+            } else { 
+              el.innerHTML = "Sorry, needs a decent browser<br /><small>" + 
+                "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+            }
+        </script>
 
     </body>
 
